@@ -1,3 +1,4 @@
+
 :root{
     --background_color:blue;
     --background_color_hover:darkblue;
@@ -45,3 +46,6 @@
     color: rgba(0, 0, 0, 0.272);
     border: solid 1px #00000062;
 }
+
+/* Стилизация кнопки */
+
