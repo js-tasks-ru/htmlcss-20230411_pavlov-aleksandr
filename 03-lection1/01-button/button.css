@@ -1,4 +1,5 @@
 
+
 @import '../../assets/css/main.css';
 .knopka{
     display: inline-block;
@@ -43,3 +44,6 @@
             color: rgba(0, 0, 0, 0.508);
             border:solid 2px rgba(0, 0, 0, 0.481)
         }
+
+/* Стилизация кнопки */
+
