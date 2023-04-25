@@ -1,1 +1,58 @@
-/* Стилизация кнопки */
+/*в прошлый раз ошибся с селекторами. Для ясности опишу тут*/
+/* knopka__buttons отвечает за общие стили кнопок внутри блока knopka*/
+/* knopka_buttons_primary стили для первой кнопки*/
+/* knopka_buttons_secondary стили для второй кнопки*/
+/* knopka_buttons_primary стили для отдельной кнопки*/
+
+.knopka__buttons{ /*этот класс я использовал для обозначения общих стилей в блоке knopka*/
+    display: inline-block;
+    height: 48px; /* высота кнопок как по макету*/
+    width: 189px;/* ширина кнопок как по макету*/
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    color:var(--white);
+    margin-right: 33px;
+    transition: opacity 200ms ease-in-out, background 300ms ease-in-out;
+    cursor: pointer;
+}
+.knopka_buttons_primary{ /*описание конкретных изменений первой кнопки*/
+    background-color: var(--blue);
+}
+    .knopka_buttons_primary:hover{ 
+    background-color:rgb(0, 0, 210);
+    }
+        .knopka_buttons_primary:active{
+            background-color: rgba(0, 0, 255, 0.504);
+            color: rgba(255, 255, 255, 0.506);
+        }
+.knopka_buttons_secondary{
+    background-color: var(--purple);
+}
+    .knopka_buttons_secondary:hover{
+    background-color: #6340cc;
+    }
+        .knopka_buttons_secondary:active{
+            background-color: #7048e886;
+            color: rgba(255, 255, 255, 0.506);
+        }
+.knopka_buttons_alternate{
+    color:var(--black);
+    border:solid 1px var(--black);
+    background-color: var(--white);
+    cursor: default;
+}
+    .knopka_buttons_alternate:hover{
+    border:solid 2px var(--black);
+    }
+        .knopka_buttons_alternate:active{
+            color: rgba(0, 0, 0, 0.508);
+            border:solid 2px rgba(0, 0, 0, 0.481)
+        }
+/* В заключении хотел бы описать то, что я понял. Ответьте в комментах правильно я это осознаю или нет.*/
+/* Если я хочу написать элемент который содержит в себе несколько элементов, то я должен задать селектор общего блока, затем задать селекторы 
+каждому элементу этого блока, причем таким методом чтобы было понятно, что конкретный элемент принадлежит конкретному блоку: в моем случае
+общий блок knopka и элементы knopka__buttons*/
+/* Далее задаем общие стили для элементов, после приступаем вносить конкретные изменения для отдельных кнопок для возможности их изменения.
+Отсюда появились у меня селекторы с назавниями knopka_buttons_primary и т.д., с помощью которых я внес изменения для каждой кнопки не меняя 
+общие стили для остальных кнопок*/
