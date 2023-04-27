@@ -6,17 +6,25 @@
         <link rel="stylesheet" href="./accordion.css">
     </head>
     <body>
-        <details class="accordion">
-            <summary class="name accordion__item">
-                <p>Accordion item </p> 
-                <p> Текст который виден всем</p> 
+        <div class="accordion">
+        <details class="accordion__item">
+            <summary class="accordion__summary">
+                <p class="accordion__text">Accordion item 1 </p> 
+                <p class="accordion__text2"> Текст который виден всем</p> 
             </summary>
-            <p class="content accordion__item">
-                Hidden content
-            </p>
-            <p class="content accordion__item">
-                conetnt2
-            </p>
         </details>
+        <details class="accordion__item">   
+            <summary class="accordion__summary">
+                <p class="accordion__text">Accordion item 2 </p> 
+                <p class="accordion__text2"> Текст который виден всем</p> 
+            </summary>
+        </details>
+        <details class="accordion__item">   
+            <summary class="accordion__summary">
+                <p class="accordion__text">Accordion item 3</p> 
+                <p class="accordion__text2"> Текст который виден всем</p> 
+            </summary>
+        </details>
+    </div>
     </body>
 </html>

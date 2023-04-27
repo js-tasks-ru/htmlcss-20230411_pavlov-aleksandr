@@ -1,8 +1,4 @@
-.accordion{
-    box-sizing: border-box;
-    width: 730px; /*Нужно ли было тут задавать ширину аккордеона?*/
-}
-details summary::-webkit-details-marker {  
+.accordion__summary::-webkit-details-marker{  /*Почему то стрелка перстала пропадать(*/
     display: none;
 }
 .accordion__item{
@@ -10,9 +6,22 @@ details summary::-webkit-details-marker {
     border-radius: 8px;
     display: block;
     margin-bottom: 8px;
-    padding: 32px;
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    font-size: 16px;
 }
-.accordion__item:last-child{
+.accordion__text{
+    color: black;
+}
+.accordion__text2{
+    color:var(--grey-4);
+}
+.accordion__summary[open]{
+    margin-bottom: 0px;
+    padding: 12px;
+}
+.accordion__summary:last-child{
     margin-bottom: 0;
 }
-/*Так и не нашел как передвинуть стрелку направо.*/
