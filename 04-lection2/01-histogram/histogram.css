@@ -1,0 +1,139 @@
+.histogram{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-sizing: border-box;
+    height: 185px;
+    padding: 24px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 1;
+}
+.histogram_text{
+    display: flex;
+    justify-content: space-between;
+}
+.text_element_number{
+    display: flex;
+    align-self:start;
+    flex-basis: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0;
+}
+.text_element{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.elements{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 50%;  
+    flex-wrap: wrap-reverse;
+}
+.element{
+    border: 1px solid black;
+    background-color: var(--blue);
+    flex-grow: 1;
+}
+/*Далее я сделал разную высоту элементов гистграммы напишите если нужно было по-другому сделать*/
+.el_1{
+    height: 100%;
+}
+.el_2{
+    height: 50%;
+}
+.el_3{
+    height: 10%;
+}
+.el_4{
+    height: 56%;
+}
+.el_5{
+    height: 70%;
+}
+.el_6{
+    height: 45%;
+}
+.el_7{
+    height: 56%;
+}
+.el_8{
+    height: 100%;
+}
+.el_9{
+    height: 12%;
+}
+.el_10{
+    height: 90%;
+}
+.el_11{
+    height: 69%;
+}
+.el_12{
+    height: 71%;
+}
+.el_13{
+    height: 22%;
+}
+.el_14{
+    height: 80%;
+}
+.el_15{
+    height: 100%;
+}
+.el_16{
+    height: 100%;
+}
+.el_17{
+    height: 50%;
+}
+.el_18{
+    height: 10%;
+}
+.el_19{
+    height: 56%;
+}
+.el_20{
+    height: 70%;
+}
+.el_21{
+    height: 45%;
+}
+.el_22{
+    height: 56%;
+}
+.el_23{
+    height: 100%;
+}
+.el_24{
+    height: 12%;
+}
+.el_25{
+    height: 90%;
+}
+.el_26{
+    height: 69%;
+}
+.el_27{
+    height: 71%;
+}
+.el_28{
+    height: 22%;
+}
+.el_29{
+    height: 80%;
+}
+.el_30{
+    height: 100%;
+}
+
