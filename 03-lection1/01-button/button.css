@@ -14,6 +14,8 @@
 }
 .button:disabled{
     cursor: default;
+    pointer-events: none;
+    opacity: 0,5;
 }
 .button_primary{ /*описание конкретных изменений первой кнопки*/
     background-color: var(--blue);
@@ -25,6 +27,14 @@
             background-color: rgba(0, 0, 255, 0.504);
             color: rgba(255, 255, 255, 0.506);
         }
+.button_primary_disabled{
+    background-color: rgba(0, 0, 255, 0.504);
+    color: rgba(255, 255, 255, 0.506);
+    cursor: default;
+    pointer-events: none;
+    opacity: 0,5;
+            
+}
 .button_secondary{
     background-color: var(--purple);
 }
@@ -35,9 +45,16 @@
             background-color: #7048e886;
             color: rgba(255, 255, 255, 0.506);
         }
+.button_secondary_disabled{
+    background-color: #7048e886;
+    color: rgba(255, 255, 255, 0.506);
+    cursor: default;
+    pointer-events: none;
+    opacity: 0,5;
+}
 .button_alternate{
     color:var(--black);
-    border:solid 1px var(--black);
+    border:solid 1px rgba(0, 0, 0, 0.485);
     background-color: var(--white);
     cursor: default;
 }
@@ -45,7 +62,14 @@
     border:solid 1px var(--black);
     }
         .button_alternate:active{
-            color: rgba(0, 0, 0, 0.508);
-            border:solid 1px rgba(0, 0, 0, 0.481)
+            color: rgba(0, 0, 0, 0.265);
+            border:solid 1px rgba(0, 0, 0, 0.272)
         }
+.button_alternate_disabled{
+    color: rgba(0, 0, 0, 0.265);
+    border:solid 1px rgba(0, 0, 0, 0.272);
+    cursor: default;
+    pointer-events: none;
+    opacity: 0,5;
+}
 /* Убрал лишнюю обертку. Думал нужно поместить кнопки в контейнер, вот у меня ошибки были. */
