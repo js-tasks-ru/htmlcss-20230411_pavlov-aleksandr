@@ -25,9 +25,9 @@
     font-size: 16px;
     line-height: 24px;
 }
-.accordion__summary[open]{
+.accordion__item[open]{
     margin-bottom: 0px;
-    padding: 12px;
+    padding-bottom: 32px;
 }
 .accordion__summary:last-child{
     margin-bottom: 0;
