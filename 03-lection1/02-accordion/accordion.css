@@ -1,4 +1,4 @@
-.accordion__summary::-webkit-details-marker{  /*Почему то стрелка перстала пропадать(*/
+.accordion__summary::-webkit-details-marker{  
     display: none;
 }
 .accordion__item{
