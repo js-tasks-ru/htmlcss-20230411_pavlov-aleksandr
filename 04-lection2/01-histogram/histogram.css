@@ -8,11 +8,11 @@
     flex-direction: column;
     flex-shrink: 1;
 }
-.histogram_orders{
+.histogram-orders{
     display: flex;
     justify-content: space-between;
 }
-.histogram_orders_number{
+.histogram-orders__number{
     display: flex;
     align-self:start;
     flex-basis: 50%;
@@ -24,7 +24,7 @@
     margin: 0;
     padding-bottom: 40px;
 }
-.orders_total{
+.Total{
     display: flex;
     font-family: 'Inter';
     font-style: normal;
@@ -48,94 +48,94 @@
     flex-grow: 1;
 }
 /*Далее я сделал разную высоту элементов гистграммы напишите если нужно было по-другому сделать*/
-.el_1{
+.histogram_stats-el__1{
     height: 100%;
 }
-.el_2{
+.histogram_stats-el__2{
     height: 50%;
 }
-.el_3{
+.histogram_stats-el__3{
     height: 10%;
 }
-.el_4{
+.histogram_stats-el__4{
     height: 56%;
 }
-.el_5{
+.histogram_stats-el__5{
     height: 70%;
 }
-.el_6{
+.histogram_stats-el__6{
     height: 45%;
 }
-.el_7{
+.histogram_stats-el__7{
     height: 56%;
 }
-.el_8{
+.histogram_stats-el__8{
     height: 100%;
 }
-.el_9{
+.histogram_stats-el__9{
     height: 12%;
 }
-.el_10{
+.histogram_stats-el__10{
     height: 90%;
 }
-.el_11{
+.histogram_stats-el__11{
     height: 69%;
 }
-.el_12{
+.histogram_stats-el__12{
     height: 71%;
 }
-.el_13{
+.histogram_stats-el__13{
     height: 22%;
 }
-.el_14{
+.histogram_stats-el__14{
     height: 80%;
 }
-.el_15{
+.histogram_stats-el__15{
     height: 100%;
 }
-.el_16{
+.histogram_stats-el__16{
     height: 100%;
 }
-.el_17{
+.histogram_stats-el__17{
     height: 50%;
 }
-.el_18{
+.histogram_stats-el__18{
     height: 10%;
 }
-.el_19{
+.histogram_stats-el__19{
     height: 56%;
 }
-.el_20{
+.histogram_stats-el__20{
     height: 70%;
 }
-.el_21{
+.histogram_stats-el__21{
     height: 45%;
 }
-.el_22{
+.histogram_stats-el__22{
     height: 56%;
 }
-.el_23{
+.histogram_stats-el__23{
     height: 100%;
 }
-.el_24{
+.histogram_stats-el__24{
     height: 12%;
 }
-.el_25{
+.histogram_stats-el__25{
     height: 90%;
 }
-.el_26{
+.histogram_stats-el__26{
     height: 69%;
 }
-.el_27{
+.histogram_stats-el__27{
     height: 71%;
 }
-.el_28{
+.histogram_stats-el__28{
     height: 22%;
 }
-.el_29{
+.histogram_stats-el__29{
     height: 80%;
 }
-.el_30{
+.histogram_stats-el__30{
     height: 100%;
 }
 
