@@ -3,7 +3,7 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     display: flex;
-    height: 180px;
+
     flex-direction: column;
     padding-left: 24px;
     padding-top: 24px;
@@ -27,26 +27,50 @@
         display: flex;
         flex-grow: 3;
         flex-direction: column;
-        align-items: stretch;
+        justify-content: space-between;
         padding-left:16px;   
         box-sizing: border-box;
+        margin:8px 8 8;
+        
     }
     .lines{
         display: flex;
         height: 20px;
-
+        margin:8px 0 0;
     }
         .line_1{
-            padding-top: 8px;
             display: flex;
             background-color: var(--grey-2);
+            flex-basis: auto;
+            width: 40%;
         }
         .line_2{
-            padding-top: 8px;
             display: flex;
             background-color: var(--grey-2);
+            flex-basis: auto;
+            width: 60%;
         }
 .skeleton_body{
     display: flex;
     flex-basis: 50%;
+    padding-top: 24px;
 }
+    .body_lines{
+        display: flex;
+        flex-grow: 3;
+        flex-direction: column;
+        justify-content: space-between;  
+        box-sizing: border-box;
+
+    }
+    .line_3{
+        display: flex;
+        background-color: var(--grey-2);
+        flex-basis: auto;
+
+    }
+    .line_4{
+        display: flex;
+        background-color: var(--grey-2);
+        flex-basis: auto;
+    }
