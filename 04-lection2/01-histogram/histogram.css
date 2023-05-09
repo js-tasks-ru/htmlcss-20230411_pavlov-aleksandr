@@ -7,11 +7,11 @@
     flex-direction: column;
     flex-shrink: 1;
 }
-.histogram-orders{
+.histogram__orders{
     display: flex;
     justify-content: space-between;
 }
-.histogram-orders__number{
+.histogram__orders__number{
     display: flex;
     align-self:start;
     flex-basis: 50%;
@@ -23,7 +23,7 @@
     margin: 0;
     padding-bottom: 40px;
 }
-.Total{
+.histogram__orders__total{
     display: flex;
     font-family: 'Inter';
     font-style: normal;
@@ -33,7 +33,7 @@
     text-decoration: none;
 
 }
-.histogram_stats{   
+.histogram__stats{   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,95 +46,94 @@
     background-color: var(--blue);
     flex-grow: 1;
 }
-/*Далее я сделал разную высоту элементов гистграммы напишите если нужно было по-другому сделать*/
-.histogram_stats-el__1{
+.histogram__stats_el1{
     height: 100%;
 }
-.histogram_stats-el__2{
+.histogram__stats_el2{
     height: 50%;
 }
-.histogram_stats-el__3{
+.histogram__stats_el3{
     height: 10%;
 }
-.histogram_stats-el__4{
+.histogram__stats_el4{
     height: 56%;
 }
-.histogram_stats-el__5{
+.histogram__stats_el5{
     height: 70%;
 }
-.histogram_stats-el__6{
+.histogram__stats_el6{
     height: 45%;
 }
-.histogram_stats-el__7{
+.histogram__stats_el7{
     height: 56%;
 }
-.histogram_stats-el__8{
+.histogram__stats_el8{
     height: 100%;
 }
-.histogram_stats-el__9{
+.histogram__stats_el9{
     height: 12%;
 }
-.histogram_stats-el__10{
+.histogram__stats_el10{
     height: 90%;
 }
-.histogram_stats-el__11{
+.histogram__stats_el11{
     height: 69%;
 }
-.histogram_stats-el__12{
+.histogram__stats_el12{
     height: 71%;
 }
-.histogram_stats-el__13{
+.histogram__stats_el13{
     height: 22%;
 }
-.histogram_stats-el__14{
+.histogram__stats_el14{
     height: 80%;
 }
-.histogram_stats-el__15{
+.histogram__stats_el15{
     height: 100%;
 }
-.histogram_stats-el__16{
+.histogram__stats_el16{
     height: 100%;
 }
-.histogram_stats-el__17{
+.histogram__stats_el17{
     height: 50%;
 }
-.histogram_stats-el__18{
+.histogram__stats_el18{
     height: 10%;
 }
-.histogram_stats-el__19{
+.histogram__stats_el19{
     height: 56%;
 }
-.histogram_stats-el__20{
+.histogram__stats_el20{
     height: 70%;
 }
-.histogram_stats-el__21{
+.histogram__stats_el21{
     height: 45%;
 }
-.histogram_stats-el__22{
+.histogram__stats_el22{
     height: 56%;
 }
-.histogram_stats-el__23{
+.histogram__stats_el23{
     height: 100%;
 }
-.histogram_stats-el__24{
+.histogram__stats_el24{
     height: 12%;
 }
-.histogram_stats-el__25{
+.histogram__stats_el25{
     height: 90%;
 }
-.histogram_stats-el__26{
+.histogram__stats_el26{
     height: 69%;
 }
-.histogram_stats-el__27{
+.histogram__stats_el27{
     height: 71%;
 }
-.histogram_stats-el__28{
+.histogram__stats_el28{
     height: 22%;
 }
-.histogram_stats-el__29{
+.histogram__stats_el29{
     height: 80%;
 }
-.histogram_stats-el__30{
+.histogram__stats_el30{
     height: 100%;
 }
 
