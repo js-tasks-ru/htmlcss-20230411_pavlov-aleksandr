@@ -3,7 +3,6 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     display: flex;
-
     flex-direction: column;
     padding-left: 24px;
     padding-top: 24px;
@@ -12,50 +11,45 @@
 }
 .skeleton__header{
     display: flex;
-    flex-basis: 50%;
     flex-direction: row;
-    align-items: flex-start;
 }
-    .header__image{
+    .skeleton__header_image{
         display: flex;
         height: 64px;
         width: 64px;
         border-radius: 50%;
         background-color: var(--grey-2);
     }
-    .header__lines{
+    .skeleton__header__lines{
         display: flex;
         flex-grow: 3;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         padding-left:16px;   
         box-sizing: border-box;
-        margin:8px 8 8;
-        
+        margin:8px 8 8;       
     }
-    .lines{
-        display: flex;
-        height: 20px;
-        margin:8px 0 0;
-    }
-        .lines__line1{
+        .skeleton__header__lines_line1{
             display: flex;
             background-color: var(--grey-2);
             flex-basis: auto;
             width: 40%;
+            height: 20px;
+            margin:8px 0 0;
         }
-        .lines__line2{
+        .skeleton__header__lines_line2{
             display: flex;
             background-color: var(--grey-2);
             flex-basis: auto;
             width: 60%;
+            height: 20px;
+            margin:8px 0 0;
         }
 .skeleton__body{
     display: flex;
-    flex-basis: 50%;
     padding-top: 24px;
 }
-    .body__lines{
+    .skeleton__body__lines{
         display: flex;
         flex-grow: 3;
         flex-direction: column;
@@ -63,14 +57,18 @@
         box-sizing: border-box;
 
     }
-    .lines__line3{
+    .skeleton__body__lines_line3{
         display: flex;
         background-color: var(--grey-2);
         flex-basis: auto;
+        height: 20px;
+        margin:8px 0 0;
 
     }
-    .lines__line4{
+    .skeleton__body__lines_line4{
         display: flex;
         background-color: var(--grey-2);
         flex-basis: auto;
+        height: 20px;
+        margin:8px 0 0;
     }
