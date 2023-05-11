@@ -1,5 +1,5 @@
 .histogram{
-    border: 1px solid black;
+    border: 1px solid var(--grey-3);
     border-radius: 8px;
     box-sizing: border-box;
     padding: 16px 24px 24px;
@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
 }
-.histogram__orders__number{
+.histogram__number{
     display: flex;
     align-self:start;
     flex-basis: 50%;
@@ -20,10 +20,10 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    margin: 0;
-    padding-bottom: 40px;
+    margin-bottom: 39px;
+
 }
-.histogram__orders__total{
+.histogram__orders__title{
     display: flex;
     font-family: 'Inter';
     font-style: normal;
@@ -37,103 +37,189 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;/*Если убрать wrap reverse то гистограмма будет сверху вниз я не понимаю с чем это связано*/
     height: 50px;
-    
+    margin: 0 -5px;  
 }
-.stats{
-    border: 1px solid black;
+
+.histogram__stats_1{
+    height: 100%;
     background-color: var(--blue);
     flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el1{
-    height: 100%;
-}
-.histogram__stats_el2{
+.histogram__stats_2{
     height: 50%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el3{
+.histogram__stats_3{
     height: 10%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el4{
+.histogram__stats_4{
     height: 56%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el5{
+.histogram__stats_5{
     height: 70%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el6{
+.histogram__stats_6{
     height: 45%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el7{
+.histogram__stats_7{
     height: 56%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el8{
+.histogram__stats_8{
     height: 100%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el9{
+.histogram__stats_9{
     height: 12%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el10{
+.histogram__stats_10{
     height: 90%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el11{
+.histogram__stats_11{
     height: 69%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el12{
+.histogram__stats_12{
     height: 71%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el13{
+.histogram__stats_13{
     height: 22%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el14{
+.histogram__stats_14{
     height: 80%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el15{
+.histogram__stats_15{
     height: 100%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el16{
+.histogram__stats_16{
     height: 100%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el17{
+.histogram__stats_17{
     height: 50%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el18{
+.histogram__stats_18{
     height: 10%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el19{
+.histogram__stats_19{
     height: 56%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el20{
+.histogram__stats_20{
     height: 70%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el21{
+.histogram__stats_21{
     height: 45%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el22{
+.histogram__stats_22{
     height: 56%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el23{
+.histogram__stats_23{
     height: 100%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el24{
+.histogram__stats_24{
     height: 12%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el25{
+.histogram__stats_25{
     height: 90%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el26{
+.histogram__stats_26{
     height: 69%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el27{
+.histogram__stats_27{
     height: 71%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el28{
+.histogram__stats_28{
     height: 22%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el29{
+.histogram__stats_29{
     height: 80%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
-.histogram__stats_el30{
+.histogram__stats_30{
     height: 100%;
+    background-color: var(--blue);
+    flex-grow: 1;
+    margin: 0 1px;
 }
 
