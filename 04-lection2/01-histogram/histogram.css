@@ -23,7 +23,16 @@
     margin-bottom: 39px;
 
 }
-.histogram__orders__title{
+.histogram__title{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+.histogram__link{
     display: flex;
     font-family: 'Inter';
     font-style: normal;
@@ -31,193 +40,15 @@
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-
 }
 .histogram__stats{   
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap-reverse;/*Если убрать wrap reverse то гистограмма будет сверху вниз я не понимаю с чем это связано*/
+    align-items: flex-end;
     height: 50px;
-    margin: 0 -5px;  
 }
-
-.histogram__stats_1{
-    height: 100%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_2{
-    height: 50%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_3{
-    height: 10%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_4{
-    height: 56%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_5{
-    height: 70%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_6{
-    height: 45%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_7{
-    height: 56%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_8{
-    height: 100%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_9{
-    height: 12%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_10{
-    height: 90%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_11{
-    height: 69%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_12{
-    height: 71%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_13{
-    height: 22%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_14{
-    height: 80%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_15{
-    height: 100%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_16{
-    height: 100%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_17{
-    height: 50%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_18{
-    height: 10%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_19{
-    height: 56%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_20{
-    height: 70%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_21{
-    height: 45%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_22{
-    height: 56%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_23{
-    height: 100%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_24{
-    height: 12%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_25{
-    height: 90%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_26{
-    height: 69%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_27{
-    height: 71%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_28{
-    height: 22%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_29{
-    height: 80%;
-    background-color: var(--blue);
-    flex-grow: 1;
-    margin: 0 1px;
-}
-.histogram__stats_30{
-    height: 100%;
+.histogram__col{
     background-color: var(--blue);
     flex-grow: 1;
     margin: 0 1px;
