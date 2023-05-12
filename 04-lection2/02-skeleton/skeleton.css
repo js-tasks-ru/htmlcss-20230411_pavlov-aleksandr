@@ -12,63 +12,46 @@
 .skeleton__header{
     display: flex;
     flex-direction: row;
+    gap: 16px;
 }
-    .skeleton__header_image{
+    .skeleton__image{
         display: flex;
         height: 64px;
         width: 64px;
         border-radius: 50%;
         background-color: var(--grey-2);
     }
-    .skeleton__header__lines{
+    .skeleton__line{ /*У меня оастягиваются первые две линии под размер круга. Как правильно пофиксить?*/
         display: flex;
-        flex-grow: 3;
-        flex-direction: column;
-        justify-content: center;
-        padding-left:16px;   
-        box-sizing: border-box;
-        margin:8px 8 8;       
+        flex-grow: 1;
+        flex-direction: column;  
+        gap: 8px;  
+        align-self: normal;   
     }
-        .skeleton__header__lines_line1{
+        .skeleton__line_short{
             display: flex;
             background-color: var(--grey-2);
-            flex-basis: auto;
             width: 40%;
             height: 20px;
-            margin:8px 0 0;
         }
-        .skeleton__header__lines_line2{
+        .skeleton__line_medium{
             display: flex;
             background-color: var(--grey-2);
-            flex-basis: auto;
             width: 60%;
             height: 20px;
-            margin:8px 0 0;
         }
 .skeleton__body{
     display: flex;
     padding-top: 24px;
 }
-    .skeleton__body__lines{
-        display: flex;
-        flex-grow: 3;
-        flex-direction: column;
-        justify-content: space-between;  
-        box-sizing: border-box;
 
-    }
-    .skeleton__body__lines_line3{
+    .skeleton__line_long{
         display: flex;
         background-color: var(--grey-2);
-        flex-basis: auto;
         height: 20px;
-        margin:8px 0 0;
-
     }
-    .skeleton__body__lines_line4{
+    .skeleton__line_long1{
         display: flex;
         background-color: var(--grey-2);
-        flex-basis: auto;
         height: 20px;
-        margin:8px 0 0;
     }
