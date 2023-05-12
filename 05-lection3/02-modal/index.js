@@ -15,5 +15,6 @@
     close.addEventListener('click', () => {
         modal.style.display = 'none';
         document.body.overflow = 'initial';
+
     });
 })();
