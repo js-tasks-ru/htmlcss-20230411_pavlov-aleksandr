@@ -1,7 +1,4 @@
-body{
-    text-align: center;
-    margin-top: 10%;
-}
+
 .tooltip__icon{
 display: none;
 background: #4263EB;
@@ -34,6 +31,9 @@ color: #DDE2E5;
     display: inline-block;
     position: relative;
     cursor: pointer;
+    margin-top: 10%;
+    text-align: center;
+    left: 50%;
 }
 .tooltip__trigger:hover ~.tooltip__icon{
     display: block;
