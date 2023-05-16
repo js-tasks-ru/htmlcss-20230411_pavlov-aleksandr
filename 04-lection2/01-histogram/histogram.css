@@ -51,6 +51,6 @@
 .histogram__col{
     background-color: var(--blue);
     flex-grow: 1;
-    margin: 0 1px;
+    margin: 0 1px 0 0;
 }
 
