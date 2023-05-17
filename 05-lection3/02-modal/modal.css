@@ -3,25 +3,7 @@
     height: 100%;
     width: 100%;
 }
-#modal-open{
-position: absolute;
-background: #4263EB;
-border-radius: 8px;
-width:189px;
-height:48px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF;
-border: none;
-}
-#modal-open:active{
-    background: #4264eb7e;
-}
-#modal{
+.modal__window{
 position: absolute;
 max-width: 428px;
 bottom: 50%;
@@ -32,7 +14,7 @@ border: 1px solid black;
 padding: 30px 40px;
 display: none;
 }
-#modal-close{
+.modal__close{
     position: relative;
     top: -80px;
     left: calc(100% - 20px);
