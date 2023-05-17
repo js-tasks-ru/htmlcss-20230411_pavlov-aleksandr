@@ -34,11 +34,9 @@
         height: 20px;
     }
         .skeleton__line_short{
-            display: flex;
             width: 40%;
         }
         .skeleton__line_medium{
-            display: flex;
             width: 60%;
         }
 .skeleton__body{
@@ -47,12 +45,5 @@
 }
 
     .skeleton__line_long{
-        display: flex;
-        background-color: var(--grey-2);
-        height: 20px;
-    }
-    .skeleton__line_long1{
-        display: flex;
-        background-color: var(--grey-2);
-        height: 20px;
+        width: 100%;
     }
