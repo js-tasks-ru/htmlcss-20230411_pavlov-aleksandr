@@ -30,10 +30,8 @@ color: #DDE2E5;
 .tooltip{
     display: inline-block;
     position: relative;
-    cursor: pointer;
-    margin-top: 10%;
+    cursor: pointer; 
     text-align: center;
-    left: 50%;
 }
 .tooltip__trigger:hover ~.tooltip__icon{
     display: block;
