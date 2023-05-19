@@ -1,0 +1,24 @@
+.container{
+    max-width: 300px;
+    max-height: 300px;
+}
+.container__img{
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (min-resolution: 150dpi) and (max-resolution:401dpi) {
+    .container__img{
+        background-image: url(./public/forest_400.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (min-resolution: 402dpi) and (max-resolution:769dpi) {
+    .container__img{
+        background-image: url(./public/forest_768.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

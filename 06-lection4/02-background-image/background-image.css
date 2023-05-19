@@ -1,0 +1,12 @@
+.container{
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    background-image: url(./public/forest_2560.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (min-resolution:150dpi) and (max-resolution:401dpi){
+    
+}
