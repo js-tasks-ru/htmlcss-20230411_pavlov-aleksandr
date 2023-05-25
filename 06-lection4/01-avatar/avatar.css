@@ -1,13 +1,11 @@
 .avatar{
     max-width: 102px;
     height: 102px;
-    height: 102px;
     width: 102px;
-    object-fit: contain;
 }
 .avatar__img{
-    object-fit: contain;
-    max-width: 102px;
-    height: 102px;
+    object-fit: cover;
+    width:100%;
+    height: 100%;
     border-radius: 50%;
 }
