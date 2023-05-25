@@ -6,35 +6,22 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-image: url(/public/forest_2560.jpg);
+    background-image: url(/public/forest_400.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and(max-width:401px) {
-    .page{
-        background-image: url(./public/forest_400.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; 
-    }
-}
-@media  screen and (min-width:402px) and (max-width:769px){
+@media  screen and (min-width: 768px){
     .page{
         background-image: url(./public/forest_768.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; 
 }
 }
-@media  screen and (min-width:770px) and (max-width:1025px) {
+@media  screen and (min-width: 992px) {
     .page{
         background-image: url(./public/forest_1024.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; 
 }
 }
 @media  screen and (min-width:1026px) and (max-width:2560px) {
     .page{
         background-image: url(./public/forest_2560.jpg);
-        background-repeat: no-repeat;
-        background-size: cover; 
 }
 }
