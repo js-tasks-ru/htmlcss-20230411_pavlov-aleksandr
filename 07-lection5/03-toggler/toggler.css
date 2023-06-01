@@ -49,6 +49,8 @@
     background: var(--grey-3);
 }
 .toggler__text {
+    padding-left:12px;
+    padding-right: 12px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
