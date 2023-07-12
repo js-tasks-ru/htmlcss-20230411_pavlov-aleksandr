@@ -40,6 +40,12 @@
     display: none;
 }
 
+.checkbox__input:checked~.checkbox__state .checkbox__control {
+    background: var(--primary);
+    animation-name: area-shadow;
+    animation-duration: 200ms;
+    animation-timing-function: ease-in;
+}
 .checkbox__input:checked~.checkbox__state .checkbox__icon {
     display: block;
 }
@@ -65,3 +71,37 @@
 .checkbox__input:disabled~.checkbox__state {
     pointer-events: none;
 }
+@keyframes area-shadow {
+    from {
+      box-shadow: none;
+    }
+    50% {
+      box-shadow: 0 0 30px var(--primary);
+    }
+    to {
+      box-shadow: none;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .checkbox__title {
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 20px;
+    }
+  
+    .checkbox__control {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .checkbox__icon {
+      width: 12px;
+      height: 10px;
+    }
+  
+    .checkbox__state {
+      display: flex;
+      flex-direction: column;
+    }
+  }
