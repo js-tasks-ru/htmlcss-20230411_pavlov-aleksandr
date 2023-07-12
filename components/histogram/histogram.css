@@ -1,0 +1,102 @@
+.histogram {
+  background: var(--main-bg);
+  border: 1px solid var(--gray-3);
+  border-radius: 8px;
+  padding: 16px 24px 24px 24px;
+}
+
+.histogram_inactive {
+  pointer-events: none;
+  width: 252px;
+}
+
+.histogram__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.histogram__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--main-bg-alternate);
+  opacity: 0.8;
+  margin-bottom: 6px;
+}
+
+.histogram__view {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--primary);
+}
+
+.histogram__score {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: var(--main-bg-alternate);
+}
+
+.histogram__chart {
+  height: 50px;
+  display: flex;
+  align-items: end;
+  column-gap: 1px;
+  margin-top: 39px;
+  animation: raise-charts 500ms linear;
+}
+
+.histogram__chart-block {
+  background-color: var(--primary);
+  width: 20px;
+}
+
+@keyframes raise-charts {
+  0% {
+    transform: scaleY(0);
+    transform-origin: bottom left;
+  }
+  100% {
+    transform: scaleY(1);
+    transform-origin: bottom left;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .histogram {
+    width: 140px;
+    padding: 4px 6px 6px 6px;
+  }
+
+  .histogram__title {
+    font-size: 10px;
+    line-height: 20px;
+    margin-bottom: 0;
+  }
+
+  .histogram__view {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .histogram__score {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .histogram__chart {
+    margin-top: 0;
+  }
+
+  .histogram__chart-block {
+    flex-basis: 10px;
+  }
+}
