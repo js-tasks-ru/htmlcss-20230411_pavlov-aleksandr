@@ -1,20 +1,20 @@
 .button{ 
     display: inline-block;
+    font-family: inherit;
     border-radius: 8px;
     border: none;
     font-size: 16px;
     color:var(--white);
     transition: opacity 200ms ease-in-out, background 300ms ease-in-out;
     cursor: pointer;
-    line-height: 48px;
+    line-height: 19px;
     padding-left: 66px; 
     padding-right: 66px; /*по макету там правый паддинг был 65 но думаю ничего страшного*/
 
 }
 .button:disabled{
-    cursor: default;
     pointer-events: none;
-    opacity: 0,5;
+    opacity: 0.5;
     
 }
 .button_primary{ /*описание конкретных изменений первой кнопки*/
@@ -45,13 +45,7 @@
             background-color: #7048e886;
             color: rgba(255, 255, 255, 0.506);
         }
-.button_secondary:disabled{
-    background-color: #7048e886;
-    color: rgba(255, 255, 255, 0.506);
-    cursor: default;
-    pointer-events: none;
-    opacity: 0,5;
-}
+
 .button_alternate{
     color:var(--black);
     border:solid 1px rgba(0, 0, 0, 0.485);
@@ -65,10 +59,3 @@
             color: rgba(0, 0, 0, 0.265);
             border:solid 1px rgba(0, 0, 0, 0.272)
         }
-.button_alternate:disabled{
-    color: rgba(0, 0, 0, 0.265);
-    border:solid 1px rgba(0, 0, 0, 0.272);
-    cursor: default;
-    pointer-events: none;
-    opacity: 0,5;
-}

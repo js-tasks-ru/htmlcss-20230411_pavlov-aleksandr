@@ -3,8 +3,6 @@
   border: 1px solid var(--gray-3);
   border-radius: 8px;
   padding: 14px 13px 16px;
-  width: 176px;
-  height: 185px;
 }
 .calendar__title{
   font-family: 'Inter';

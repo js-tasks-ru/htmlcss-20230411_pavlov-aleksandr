@@ -12,14 +12,6 @@
     padding: 68px 0 204px 0;
   }
   
-  .content__card {
-    width: 350px;
-    height: 367px;
-    background-color: var(--main-bg);
-    box-shadow: 0px 2px 4px var(--black);
-    border-radius: 12px;
-  }
-  
   .content__title {
     font-family: 'Roboto';
     font-style: normal;
