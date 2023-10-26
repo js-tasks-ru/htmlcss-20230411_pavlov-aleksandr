@@ -1,6 +1,6 @@
 .button{ 
     display: inline-block;
-    font-family: inherit;
+    font-family: 'Roboto', sans-serif;
     border-radius: 8px;
     border: none;
     font-size: 16px;
