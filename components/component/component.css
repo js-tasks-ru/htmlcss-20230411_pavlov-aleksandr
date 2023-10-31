@@ -1,0 +1,72 @@
+.component {
+    background: var(--main-bg-light);
+    padding-top: 36px;
+    padding-bottom: 165px;
+  }
+  
+  .component__checkbox-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 16px;
+    column-gap: 37px;
+    height: 116px;
+    align-content: left;
+    width: 400px
+  }
+  
+  .component__tooltip-container {
+    padding: 20px 0 0 55px
+  }
+  
+  .component__description {
+    background-color: var(--main-bg);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+  }
+  
+  .component__view {
+    padding: 32px 48px 32px;
+    
+  }
+  
+  .component__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    column-gap: 56px;
+    grid-template-areas: 'sidebar info';
+  }
+  
+  .component__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--border-light);
+    margin-bottom: 58px;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .component__container {
+      column-gap: 0;
+    }
+  
+    .component__sidebar {
+      display: none;
+    }
+  
+    .component__description {
+      grid-column-start: 2;
+    }
+  
+    .component__title {
+      color: var(--border-light);
+    }
+  
+    .component__checkbox-container{
+      width: 200px;
+      height: 150px;
+    }
+  }
